@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.idea/
+venv/
+*.db
+*.sqlite3
+app/migrations/__pycache__/

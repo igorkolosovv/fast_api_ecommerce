@@ -7,7 +7,7 @@ from sqlalchemy import insert, select
 
 from fastapi import APIRouter, Depends, status, HTTPException
 
-from app.models import Category
+from app.models.category import Category
 from app.models.products import Product
 from app.schemas import CreateProduct
 
